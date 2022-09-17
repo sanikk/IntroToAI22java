@@ -1,0 +1,20 @@
+course = 'hy-intro-to-ai'
+[exercises.part1-TravelPlanner]
+id = 142703
+checksum = 'af624d928b3fe5b91266f71f2d5e5e11'
+
+[exercises.part2-AStar]
+id = 142705
+checksum = 'db760d5d551011fbf424fb4bf149b74c'
+
+[exercises.part2-AlphaBeta]
+id = 142704
+checksum = 'fe63386932de1bfa9dd3dcc280bd0404'
+
+[exercises.part3-SpamHam]
+id = 142699
+checksum = '392ff6eaa723ba7d6524a0e811c1b9f4'
+
+[exercises.part4-Perceptron]
+id = 142700
+checksum = 'e29ff4a6e590b9ec5d2063d2fc969537'
