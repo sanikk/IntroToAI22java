@@ -3,7 +3,6 @@ package fi.helsinki.cs.reittiopas;
 import fi.helsinki.cs.reittiopas.logic.Stop;
 import fi.helsinki.cs.reittiopas.logic.State;
 
-import java.util.Collection;
 import java.util.PriorityQueue;
 
 public class TravelPlanner {

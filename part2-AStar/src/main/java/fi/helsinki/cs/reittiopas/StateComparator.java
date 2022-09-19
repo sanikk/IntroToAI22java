@@ -21,8 +21,7 @@ public class StateComparator implements Comparator<State> {
     public double heuristic(Stop stop) {
         Double deltaX = Math.pow(this.goal.getX() - stop.getX(), 2);
         Double deltaY = Math.pow(this.goal.getY() - stop.getY(), 2);
-        Double distance = Math.sqrt(deltaX + deltaY);
-        return distance / 260;
+        return Math.sqrt(deltaX + deltaY) / 260;
     }
 
     /**
@@ -36,8 +35,6 @@ public class StateComparator implements Comparator<State> {
     public int compare(State t1, State t2) {
         Double cost1 = 1.0 * t1.getCurrentTime() + heuristic(t1.getStop());
         Double cost2 = 1.0 * t2.getCurrentTime() + heuristic(t2.getStop());
-        // System.out.println(t1);
-        // System.out.println(t2);
         if (cost1 < cost2) {
             return -1;
         }
